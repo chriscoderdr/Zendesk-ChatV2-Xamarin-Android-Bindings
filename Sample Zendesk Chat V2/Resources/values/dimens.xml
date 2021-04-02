@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zui_text_size_small">14</dimen>
+    <dimen name="zui_text_size_xsmall">16</dimen>
+</resources>

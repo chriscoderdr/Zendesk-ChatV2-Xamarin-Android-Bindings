@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dagger", "Dagger\Dagger.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkHttpLoggingInterceptor", "OkHttpLoggingInterceptor\OkHttpLoggingInterceptor.csproj", "{88AFF621-F70C-4BDA-94AA-3808D3FA8F10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample Zendesk Chat V2", "Sample Zendesk Chat V2\Sample Zendesk Chat V2.csproj", "{AC2891A4-815D-418B-B42A-8D1ACEE0C432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{88AFF621-F70C-4BDA-94AA-3808D3FA8F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88AFF621-F70C-4BDA-94AA-3808D3FA8F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88AFF621-F70C-4BDA-94AA-3808D3FA8F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2891A4-815D-418B-B42A-8D1ACEE0C432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2891A4-815D-418B-B42A-8D1ACEE0C432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2891A4-815D-418B-B42A-8D1ACEE0C432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2891A4-815D-418B-B42A-8D1ACEE0C432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

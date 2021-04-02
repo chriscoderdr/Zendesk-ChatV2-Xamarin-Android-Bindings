@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <array name="zui_avatar_view__background_color_palette">
+        <item>#B35827</item>
+        <item>#03363D</item>
+        <item>#144A75</item>
+        <item>#03363D</item>
+        <item>#68737D</item>
+    </array>
+    <color name="zui_avatar_view_text_color">@color/zui_color_white_80</color>
+    <color name="zui_color_accent">#1F73B7</color>
+    <color name="zui_color_black_07">#12000000</color>
+    <color name="zui_color_black_100">#FF000000</color>
+    <color name="zui_color_black_12">#1F000000</color>
+    <color name="zui_color_black_13">#21000000</color>
+    <color name="zui_color_black_34">#57000000</color>
+    <color name="zui_color_black_38">#60000000</color>
+    <color name="zui_color_black_54">#8A000000</color>
+    <color name="zui_color_black_60">#99000000</color>
+    <color name="zui_color_black_87">#DE000000</color>
+    <color name="zui_color_grey_400">#C2C8CC</color>
+    <color name="zui_color_light_grey">#FAFAFA</color>
+    <color name="zui_color_platinum">#FFE8E8E8</color>
+    <color name="zui_color_primary">#1F73B7</color>
+    <color name="zui_color_primary_dark">#185C92</color>
+    <color name="zui_color_red_300">#F5B5BA</color>
+    <color name="zui_color_red_600">#CC3340</color>
+    <color name="zui_color_transparent">#00000000</color>
+    <color name="zui_color_white_100">#FFFFFFFF</color>
+    <color name="zui_color_white_60">#99FFFFFF</color>
+    <color name="zui_color_white_80">#CCFFFFFF</color>
+    <color name="zui_divider_color">@color/zui_response_bubble_color</color>
+    <color name="zui_error_background_color">@color/zui_color_red_300</color>
+    <color name="zui_error_text_color">@color/zui_color_red_600</color>
+    <color name="zui_icon_background_color">@color/zui_color_black_54</color>
+    <color name="zui_notification_indicator_color">@color/zui_color_red_600</color>
+    <color name="zui_progress_toolbar_background_color">#89ffffff</color>
+    <color name="zui_response_bubble_color">@color/zui_color_platinum</color>
+    <color name="zui_text_color_dark_primary">@color/zui_color_black_87</color>
+    <color name="zui_text_color_dark_secondary">@color/zui_color_black_60</color>
+    <color name="zui_text_color_light_primary">@color/zui_color_white_100</color>
+    <color name="zui_text_color_light_primary_dark">@color/zui_color_white_60</color>
+    <color name="zui_text_color_light_white">@color/zui_color_light_grey</color>
+    <color name="zui_window_background_color">@color/zui_color_light_grey</color>
+    <dimen name="zui_avatar_spacing">8dp</dimen>
+    <dimen name="zui_avatar_view_outline">0dp</dimen>
+    <dimen name="zui_avatar_view_size">32dp</dimen>
+    <dimen name="zui_layout_avatar">40dp</dimen>
+    <dimen name="zui_layout_button_height">36dp</dimen>
+    <dimen name="zui_layout_divider_size">1dp</dimen>
+    <dimen name="zui_layout_icon">24dp</dimen>
+    <dimen name="zui_layout_keylines_screen_edge_margin">16dp</dimen>
+    <dimen name="zui_layout_margin_medium">8dp</dimen>
+    <dimen name="zui_layout_touch_target">48dp</dimen>
+    <dimen name="zui_list_item_header_height">56dp</dimen>
+    <dimen name="zui_list_item_text_padding">16dp</dimen>
+    <dimen name="zui_text_size_large">16sp</dimen>
+    <dimen name="zui_text_size_medium">14sp</dimen>
+    <dimen name="zui_text_size_small">12sp</dimen>
+    <dimen name="zui_text_size_xlarge">20sp</dimen>
+    <dimen name="zui_text_size_xsmall">9sp</dimen>
+    <dimen name="zui_text_size_xxlarge">26sp</dimen>
+    <dimen name="zui_toolbar_progress_bar_height">4dp</dimen>
+    <dimen name="zui_toolbar_shadow_height">4dp</dimen>
+    <integer name="zui_rtl_support_scale_x">1</integer>
+    <style name="ZendeskActivityDefaultTheme">
+        <item name="android:windowBackground">@color/zui_window_background_color</item>
+        <item name="windowActionBar">false</item>
+        <!-- Show contextual ActionBar over Toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="popupMenuStyle">@style/ZendeskSdkTheme.PopupMenu</item>
+    </style>
+    <style name="ZendeskSdkTheme" parent="Theme.MaterialComponents.Light">
+        <item name="android:windowBackground">@color/zui_window_background_color</item>
+        <item name="colorAccent">@color/zui_color_accent</item>
+        <item name="colorPrimary">@color/zui_color_primary</item>
+        <item name="colorPrimaryDark">@color/zui_color_primary_dark</item>
+    </style>
+    <style name="ZendeskSdkTheme.Light" parent="ZendeskSdkTheme">
+        <!-- Here for consistency -->
+    </style>
+    <style name="ZendeskSdkTheme.PopupMenu" parent="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:dropDownHorizontalOffset">16dp</item>
+    </style>
+    <declare-styleable name="AvatarView">
+        <attr format="reference" name="colorPalette"/>
+        <attr format="color" name="outlineColor"/>
+        <attr format="dimension" name="outlineSize"/>
+        <attr format="color" name="textColor"/>
+    </declare-styleable>
+</resources>
